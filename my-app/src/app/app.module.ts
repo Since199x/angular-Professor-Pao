@@ -49,6 +49,7 @@ import {
 import { LoggedComponent } from './logged/logged.component';
 import { Content1Component } from './content1/content1.component';
 import { Content2Component } from './content2/content2.component';
+import { PostsComponent } from './posts/posts.component';
 
 const appRoutes: Routes = [
   // { path: 'crisis-center', component: CrisisListComponent },
@@ -81,6 +82,11 @@ const appRoutes: Routes = [
     path: 'content2',
     component: Content2Component,
     data: { title: 'content2-component'}
+  },
+  {
+    path: 'posts',
+    component: PostsComponent,
+    data: { title: 'posts-component'}
   }
   // { path: '**', component: PageNotFoundComponent }
 ];
@@ -93,7 +99,8 @@ const appRoutes: Routes = [
     LoginComponent,
     LoggedComponent,
     Content1Component,
-    Content2Component
+    Content2Component,
+    PostsComponent
   ],
   imports: [
     BrowserModule,
