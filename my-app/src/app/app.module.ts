@@ -47,6 +47,8 @@ import {
   MatTreeModule,
 } from '@angular/material';
 import { LoggedComponent } from './logged/logged.component';
+import { Content1Component } from './content1/content1.component';
+import { Content2Component } from './content2/content2.component';
 
 const appRoutes: Routes = [
   // { path: 'crisis-center', component: CrisisListComponent },
@@ -69,6 +71,16 @@ const appRoutes: Routes = [
     path: 'logged',
     component: LoggedComponent,
     data: { title: 'Loggged-component'}
+  },
+  {
+    path: 'content1',
+    component: Content1Component,
+    data: { title: 'content1-component'}
+  },
+  {
+    path: 'content2',
+    component: Content2Component,
+    data: { title: 'content2-component'}
   }
   // { path: '**', component: PageNotFoundComponent }
 ];
@@ -79,7 +91,9 @@ const appRoutes: Routes = [
     HomeComponentComponent,
     HomeComponent,
     LoginComponent,
-    LoggedComponent
+    LoggedComponent,
+    Content1Component,
+    Content2Component
   ],
   imports: [
     BrowserModule,
