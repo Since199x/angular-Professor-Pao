@@ -1,0 +1,18 @@
+.container{
+    text-align: center;
+}
+// *{
+//     font-family: 'Montserrat', sans-serif;
+// }
+
+.demo-card-wide.mdl-card {
+    width: 512px;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('https://image.freepik.com/free-photo/cute-cat-picture_1122-449.jpg') center / cover;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
